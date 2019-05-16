@@ -19,9 +19,11 @@ body{
 	z-index: 99999;
 	transform: translate3d(-120%,0,0);
 	transition: transform .35s;
+	display:none;
 }
 .show{
 	transform: translate3d(0,0,0);
+	display:block
 }
 .hide{
 	transform: translate3d(12.325rem,0,0);
