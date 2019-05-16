@@ -11,7 +11,7 @@ body{
 }
 .feed_menu{
 	width: 11.325rem;
-	
+	height:100%;
 	overflow: hidden;
 	background-color: #6A6056;
 	display: block;
