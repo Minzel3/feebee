@@ -7,6 +7,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	overflow: hidden;
 }
 .feed_menu{
 	width: 11.325rem;
