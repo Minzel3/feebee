@@ -1,0 +1,24 @@
+@charset "utf-8";
+ul,ol{list-style: none;}
+body,ul,ol,p,h1,h2,h3,h4,h5,h6,dl,dd,input,textarea,select,figure{margin: 0;padding: 0;
+font-size:100%;
+font-weight:normal;
+font-family: 'Segoe UI',SegoeUI,'Microsoft YaHei',微软雅黑,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+input,textarea,select{border: none; background-color: transparent; outline: none;}
+textarea{resize: none;}
+img{border: none;vertical-align: top;}
+a{text-decoration: none;}
+a {-webkit-tap-highlight-color:transparent;}
+html {-webkit-text-size-adjust: none;}
+a{outline:0}
+em{ font-style: normal;}
+.fl{float: left;} .fr{float: right;}
+.clearfix:after,.clearfix:before{content: ""; display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.wrapper{
+	width: 15.6rem;
+	margin-left: auto;
+	margin-right: auto;
+}

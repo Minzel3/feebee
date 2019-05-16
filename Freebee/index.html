@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Free Bee</title>
+	<link rel="stylesheet" href="./css/login.css" />
+	<link rel="stylesheet" href="./css/all_freebee.css" />
+	<link rel="stylesheet" href="./font/iconfont.css" />
+	<meta id="viewport" name="viewport" content="width=640px,minimum-scale=1,maximum-scale=1">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/possess.js"></script>
+	<script>
+		window.onload = window.onresize = function(){
+			var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+			var _html = document.getElementsByTagName('html')[0];
+			view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		}
+		</script>
+</head>
+<body>
+	<div class="Login_Top">
+		<a href="###" class="logo">
+			<h1>
+				<img src="images/Freebee_logo.png" alt="" />
+			</h1>
+		</a>
+		<div class="form">
+			<form action="feed.html" method="post">
+				<div class="email">
+					<span><i class="iconfont">&#xe641;</i></span>
+					<input type="email" placeholder="E-mail address" />
+				</div>
+				<div class="paswd">
+					<span><i class="iconfont">&#xe60e;</i></span>
+					<input type="password" placeholder="••••••••" />
+				</div>
+				<div class="login">
+					<input type="submit" value="Login" />
+				</div>
+				<a href="###" class="forget">Forgot password?</a>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="fb_btn">
+			<a href="###"><span class="iconfont">&#xe689;</span>Login with Facebook</a>
+		</div>
+		<div class="sign">
+			<a href="###" class="sign_up">Sign Up for Freebee</a>
+		</div>
+	</div>
+</body>
+</html>

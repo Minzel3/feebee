@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style>
+		p{
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+	<p id="th"></p>
+	<script>
+		th = document.getElementById('th');
+		var i =0;
+		for (var i =0 ; i<=1000;i++) {
+		if(i%5==4&&i%4==3&&i%3==2){
+			document.write(i+'<'+'br'+'>')
+		}
+		}
+	</script>
+</body>
+</html>

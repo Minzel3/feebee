@@ -1,0 +1,274 @@
+@charset "utf-8";
+body{
+	background-color: #D9D2CA;
+}
+.content{
+	padding-top: 2.6rem;
+	padding-bottom: 2.3rem;
+}
+.header{
+	width: 16.0rem;
+	height: 2.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(233,138,104,1);
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translate3d(-50%,0,0);
+	border-bottom: 3px solid rgba(0,0,0,.1);
+	z-index: 999;
+}
+.wrap{
+	width: 15.6rem;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1.4rem;
+	position: relative;
+	margin-top: 0.425rem;
+}
+.fanhui{
+	width: auto;
+	color: #fff;
+	position: relative;
+}
+.fanhui i{
+	font-size: 1rem;
+	margin-left: 0.425rem;
+	line-height: 1.4rem;
+	font-weight: 700;
+	text-shadow: 0 2px 0 rgba(0,0,0,.3);
+}
+.corner{
+	width: 0.75rem;
+	height: 0.75rem;
+	text-align: center;
+	line-height: 0.75rem;
+	font-size: 0.4rem;
+	color: #705D76;
+	position: absolute;
+	right: -25%;
+	top: -15%;
+	background-color: #FADB9B;
+	border-radius: 3px;
+}
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%,-50%,0);
+}
+.logo a{
+	display: block;
+	line-height: 0.75rem;
+	font-size: 0.8rem;
+	color: #fff;
+}
+.feed_f{
+	width: 15.6rem;
+	background: url(../images/feed_i.png);
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 rgba(0,0,0,.3);
+	margin-bottom: 0.4rem;
+}
+.feedf_img{
+	position: relative;
+	width: 15.6rem;
+	height: 10.5rem;
+	text-align: center;
+	background-image: -webkit-linear-gradient(to bottom,rgba(0,0,0,0) 35%, rgba(0,0,0,.4) 65%);
+	background-image: -o-linear-gradient(to bottom,rgba(0,0,0,0) 35%, rgba(0,0,0,.4) 65%);
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0) 35%, rgba(0,0,0,.4) 65%);
+}
+.use{
+	height: 5.25rem;
+	padding-top: 1.0rem;
+}
+.user{
+	width: 5.25rem;
+	height: 5.25rem;
+	border-radius: 50%;
+	overflow:hidden;
+	background-color: #ab9c96;
+	position: relative;
+	left: 50%;
+	transform: translate3d(-50%,0,0);
+}
+.user img{
+	width: 4.75rem;
+	height: 4.75rem;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%,-50%,0);
+}
+.user_name{
+	font-size: 0.6rem;
+	color: #fff;
+}
+.trip{
+	font-size: 0.6rem;
+	color: #A49F99;
+}
+.trip span{
+	color: #85D2C5;
+	font-size: 0.45rem;
+	margin-right: 0.25rem;
+	line-height: 0.6rem;
+
+}
+.poins{
+	width: auto;
+	height: 0.25rem;
+	position: absolute;
+	left: 50%;
+	transform: translate3d(-50%,0.85rem,0);
+	display: block;
+}
+.poins span{
+	width: 0.25rem;
+	height: 0.25rem;
+	float: left;
+	margin: 0  0.125rem;
+	background-color: #655C53;
+	border-radius: 50%;
+}
+.poins span.active{
+	background-color: #fff;
+}
+.foll{
+	background-color: #fff;
+	height: 2.7rem;
+	display: block;
+	padding: 0 0.525rem;
+}
+.follow_item{
+	float: left;
+	height: 1.6rem;
+	margin-top: 0.55rem;
+	text-align: left;
+}
+.follow_item li{
+	width: auto;
+	height: 1.6rem;
+	float: left;
+}
+.follow_item li:nth-child(2){
+	margin: 0 1.2rem;
+}
+.follow_item li p{
+	font-size: 0.6rem;
+	color: #DBD9D6;
+	display: block;
+}
+.follow_item li em{
+	font-style: normal;
+	color: #79746E;
+	font-size: 0.6rem;
+
+	display: block;
+}
+.btn{
+	width: 4.0rem;
+	height: 1.5rem;
+	box-shadow: 0 4px 0 #5C4D61;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 1.6rem;
+	float: right;
+	display: block;
+	background-color: #705D76;
+	margin-top: 0.55rem;
+	font-size: 0.5rem;
+	color: #fff;
+	line-height: 1.5rem;
+	vertical-align: top;
+}
+.btn span{
+	color: #85D2C5;
+	font-size: 0.75rem;
+	margin-right: 0.55rem;
+	line-height: 1.5rem;
+	vertical-align: top;
+}
+.feed_tr{
+	width: 15.6rem;
+	overflow: hidden;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fed_img li{
+	width: 4.95rem;
+	height: 4.95rem;
+	float: left;
+	margin-right: 0.375rem;
+	border-radius: 4px;
+	margin-bottom: 0.45rem;
+}
+.fed_img li img{
+	width: 100%;
+	height: 100%;
+}
+.fed_img li:nth-child(3n){
+	margin-right: 0;
+}
+.bo_nav{
+	width: 16.0rem;
+	height: 2.3rem;
+	background-color: #685F55;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translate3d(-50%,0,0);
+	box-shadow: 0 -3px 0 rgba(0,0,0,.3);
+}
+.nav_item{
+	margin-left: auto;
+	margin-right: auto;
+	height: 2.3rem;
+}
+.nav_item li{
+	width: 20%;
+	text-align: center;
+	height: 2.3rem;
+	float: left;
+}
+.nav_item li a{
+	display: block;
+	line-height: 2.3rem;
+	font-size: 1.15rem;
+	color: #776D65;
+}
+.nav_item li.active a{
+	color: #F17E56;
+	text-shadow: 0 3px 2px rgba(0,0,0,.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
